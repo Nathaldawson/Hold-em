@@ -55,7 +55,7 @@ function renderCard(card, options = {}) {
     `;
   } else {
     // Fallback in case CSS hasn't applied yet
-    div.style.background = "center / contain no-repeat url('assets/cover.png')";
+    div.style.background = "center / contain no-repeat url('cover.png')";
   }
   return div;
 }
@@ -956,4 +956,5 @@ function getDifficultyConfig() {
 }
 
 // Start
+
 window.addEventListener('DOMContentLoaded', init); 
