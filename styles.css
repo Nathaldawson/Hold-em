@@ -90,7 +90,7 @@ body {
 
 /* Card back using custom image */
 .card.back {
-  background: center / contain no-repeat url('assets/cover.png');
+  background: center / contain no-repeat url('cover.png');
   background-color: transparent !important;
   color: transparent;
   border: 2px solid rgba(255,255,255,0.08);
@@ -450,4 +450,5 @@ button.small { padding: 8px 10px; border-radius: 8px; font-weight: 600; }
 select, option { color-scheme: dark; }
 select option { color: #e5e7eb; background: #111827; }
 select optgroup { color: #e5e7eb; background: #111827; } 
+
 
